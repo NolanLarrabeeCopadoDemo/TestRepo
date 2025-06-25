@@ -14,6 +14,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NOrm__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Vehicle__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24,6 +29,10 @@
     <layoutAssignments>
         <layout>Crystal__c-Crystal Layout</layout>
         <recordType>Crystal__c.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NOrm__c-Norm Layout</layout>
+        <recordType>NOrm__c.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
@@ -58,6 +67,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>NOrm__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -71,6 +89,11 @@
         <recordType>Crystal__c.Standard</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>NOrm__c.Standard</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Brady__c</tab>
         <visibility>DefaultOff</visibility>
@@ -78,6 +101,10 @@
     <tabVisibilities>
         <tab>Crystal__c</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NOrm__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
