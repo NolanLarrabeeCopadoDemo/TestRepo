@@ -9,6 +9,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Crystal__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Stanley__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -20,6 +25,10 @@
     <layoutAssignments>
         <layout>Brady__c-Brady Layout</layout>
         <recordType>Brady__c.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Crystal__c-Crystal Layout</layout>
+        <recordType>Crystal__c.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Stanley__c-Stanley Layout</layout>
@@ -49,6 +58,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Crystal__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Stanley__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -68,11 +86,20 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <recordType>Crystal__c.Standard</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
         <recordType>Stanley__c.Standard</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Brady__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Crystal__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
